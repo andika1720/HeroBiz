@@ -1,8 +1,7 @@
 on:
   push:
     branch:
-      -main
-
+      - main
 jobs:
   build:
     name: build app
