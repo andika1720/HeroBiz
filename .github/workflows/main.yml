@@ -24,7 +24,7 @@ jobs:
       - name: menampilkan text
         run: echo "this step deployment"
       - name: executing remote ssh commands using ssh key
-        uses: appleboy/ssh-action@v1.2.0
+        uses: appleboy/ssh-action@v1.1.0
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
