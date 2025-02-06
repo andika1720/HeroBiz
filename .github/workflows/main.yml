@@ -15,7 +15,7 @@ jobs:
     needs: build
     steps:
       - name: menampilkan text
-        run: echo "this step test"
+        run: echo "thiss step test"
   deployment:
     name: deploy app
     runs-on: ubuntu-latest
